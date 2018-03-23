@@ -1,8 +1,7 @@
 # Reverse-BindingShell
 
-Reverse or binding shell written in Python3.
-
-Works on Windows, Linux, Mac if python3 is installed.
+## Description
+This is a reverse or binding shell written in Python3. I have gotten it to work on Windows, Mac, and Linux systems. 
 
 ## Usage
 Linux and mac systems:
@@ -42,7 +41,3 @@ Shell_Server.py help:
 	  -s SERVER, --server SERVER
 						Server to connect to. [Only used for reverse shell]
 	  -p PORT, --port PORT  Port to connect to.
-  
-
-
-It is necessary to run the program that will be listening for a connection first.
