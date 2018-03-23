@@ -13,38 +13,39 @@ Both python programs have built in help to run the program.
 
 Shell_Client.py help:
 
-usage: Shell_Client.py [-h] [-l | -c] [-s SERVER] [-p PORT]
+	usage: Shell_Client.py [-h] [-l | -c] [-s SERVER] [-p PORT]
 
-optional arguments:
+	optional arguments:
 
-	-h, --help            show this help message and exit
+	  -h, --help            show this help message and exit
 
-	-l, --listen          Listen for reverse shell.
+      -l, --listen          Listen for reverse shell.
 
-	-c, --connect         Connect to binding shell
+	  -c, --connect         Connect to binding shell
 
-	-s SERVER, --server SERVER
-                        Server to connect to.
-	-p PORT, --port PORT  Port to connect to or listen on
+	  -s SERVER, --server SERVER
+                          Server to connect to.
+	  -p PORT, --port PORT  Port to connect to or listen on
 
 
 Shell_Server.py help:
 
-usage: Shell_Server.py [-h] [-b | -r] [-s SERVER] [-p PORT]
+	usage: Shell_Server.py [-h] [-b | -r] [-s SERVER] [-p PORT]
 
-optional arguments:
+	optional arguments:
 
-	-h, --help            show this help message and exit
+	  -h, --help            show this help message and exit
 	
-	-b, --bind            Bind shell to port.
+	  -b, --bind            Bind shell to port.
 	
-	-r, --reverse         Reverse shell.
+	  -r, --reverse         Reverse shell.
 	
-	-s SERVER, --server SERVER
+	  -s SERVER, --server SERVER
                         
 						Server to connect to. [Only used for reverse shell]
 	
-	-p PORT, --port PORT  Port to connect to.
+	  -p PORT, --port PORT  Port to connect to.
   
+
 
 It is necessary to run the program that will be listening for a connection first.
