@@ -4,9 +4,8 @@ Reverse or binding shell written in Python3.
 
 Works on Windows, Linux, Mac if python3 is installed.
 
-
-Running the programs looks something like:
-
+##Usage
+Linux and mac systems:
 "python3 Shell_[Client or Server].py [options]"
 
 Both python programs have built in help to run the program. 
