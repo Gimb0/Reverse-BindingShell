@@ -41,9 +41,7 @@ Shell_Server.py help:
 	  -r, --reverse         Reverse shell.
 	
 	  -s SERVER, --server SERVER
-                        
 						Server to connect to. [Only used for reverse shell]
-	
 	  -p PORT, --port PORT  Port to connect to.
   
 
