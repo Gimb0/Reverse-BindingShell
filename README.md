@@ -1,7 +1,7 @@
 # Reverse-BindingShell
 
 ## Description
-This is a reverse or binding shell written in Python3. I have gotten it to work on Windows, Mac, and Linux systems. 
+This is a reverse or binding shell written in Python3. I have gotten it to work on Windows, Mac, and Linux systems. This program was made as an exercise but can be used to remotely manage another host. It is not to be used without authorization.
 
 ## Usage
 Linux and mac systems:
